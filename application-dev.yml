@@ -1,0 +1,14 @@
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: common-db
+      authentication-database: admin
+
+  kafka:
+    bootstrap-servers: localhost:9092
+
+  redis:
+    host: localhost
+    port: 6379
